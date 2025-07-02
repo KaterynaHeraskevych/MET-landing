@@ -12,5 +12,5 @@ In this project, I applied my practical skills of **HTML** and **CSS**:
 
 
 
-    - [DEMO LINK](https://<KaterynaHeraskevych>.github.io/<MET-landing>/)
+    - [DEMO LINK](https://katerynaheraskevych.github.io/MET-landing/)
     - [MAKET LINK](https://www.figma.com/design/lSR1m42L9YwzQwzzxKwHpw/THE-MET?node-id=8590-286&t=lHrYWNOTxtuwMwQ7-0)
