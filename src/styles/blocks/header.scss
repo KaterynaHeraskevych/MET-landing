@@ -1,0 +1,56 @@
+.header {
+  height: 568px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-image: url(../images/header-bg-mobile.png);
+
+  @include onTablet {
+    height: 840px;
+  }
+
+  @include onDesktop {
+    height: 840px;
+    background-image: url(../images/header-bg-desktop.png);
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__center {
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+    @include onTablet {
+      margin-top: 90px;
+    }
+
+    @include onDesktop {
+      margin-top: 35px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    color: $white-text-color;
+    text-align: center;
+
+    @include onTablet {
+      font-size: 64px;
+
+    }
+
+    @include onDesktop {
+      font-size: 80px;
+
+    }
+  }
+}
+
