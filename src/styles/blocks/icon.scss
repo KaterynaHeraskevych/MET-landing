@@ -5,7 +5,7 @@
 
   @include hover(transform, scale(1.2));
 
-  @include onTablet {
+  @include on-tablet {
     height: 32px;
     width: 32px;
   }
@@ -33,7 +33,7 @@
       width: 201px;
       padding: 4px 20px;
       border-radius: 4px;
-      transition: transform $effectDuration;
+      transition: transform $effect-duration;
     }
 
     &:hover {
@@ -47,7 +47,7 @@
   &--menu {
     background-image: url(../images/icons/icon-burger-menu-2x.png);
     background-size: cover;
-    transition: background-image $effectDuration;
+    transition: background-image $effect-duration;
 
     &:hover {
       background-image: url(../images/icons/icon-burger-menu-hover.png);
@@ -66,7 +66,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 27px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-transform: uppercase;
   right: 255px;
   top: 24px;

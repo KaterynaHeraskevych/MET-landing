@@ -8,45 +8,46 @@
 
 .now {
   &__photos {
-    @include pageGrid;
     margin-bottom: 24px;
+
+    @include page-grid;
   }
 
   &__link {
     &--wide {
-      @include onTablet {
+      @include on-tablet {
         grid-column: span 4;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 8;
       }
     }
 
     &--square {
-      @include onTablet {
+      @include on-tablet {
         grid-column: span 2;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 4;
       }
 
       &--budha {
-        @include onTablet {
+        @include on-tablet {
           grid-column: span 3;
         }
 
-        @include onDesktop {
+        @include on-desktop {
           grid-column: span 4;
         }
       }
       &--budha3 {
-        @include onTablet {
+        @include on-tablet {
           display: none;
         }
 
-        @include onDesktop {
+        @include on-desktop {
           display: grid;
           grid-column: span 4;
         }
@@ -91,7 +92,7 @@
   background-position: center;
   background-image: url('/src/images/now-on-view/old-masters1-mobile.png');
 
-  @include onTablet {
+  @include on-tablet {
     background-image: url('/src/images/now-on-view/old-masters1.png');
   }
 }
@@ -102,9 +103,9 @@
   background-size: cover;
   background-position: center;
   background-image: url('../images/now-on-view/disney2-mobile.png');
-  transition: background-image $effectDuration ease-in-out;
+  transition: background-image $effect-duration ease-in-out;
 
-  @include onTablet {
+  @include on-tablet {
     background-image: url('../images/now-on-view/disney2.png');
   }
 

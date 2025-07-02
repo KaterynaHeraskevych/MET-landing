@@ -1,22 +1,21 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 568px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat ;
   background-image: url(../images/header-bg-mobile.png);
 
-  @include onTablet {
+  @include on-tablet {
     height: 840px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     height: 840px;
     background-image: url(../images/header-bg-desktop.png);
   }
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
   &__center {
     margin-top: 105px;
@@ -24,11 +23,11 @@
     justify-content: center;
     height: 100vh;
 
-    @include onTablet {
+    @include on-tablet {
       margin-top: 90px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-top: 35px;
     }
   }
@@ -42,12 +41,12 @@
     color: $white-text-color;
     text-align: center;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 64px;
 
     }
 
-    @include onDesktop {
+    @include on-desktop {
       font-size: 80px;
 
     }

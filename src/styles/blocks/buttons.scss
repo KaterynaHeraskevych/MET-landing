@@ -5,12 +5,11 @@ justify-self: center;
 
 @include hover(transform, scale(1.2));
 
-
-@include onTablet {
+@include on-tablet {
   width: 392px;
 }
 
-@include onTablet {
+@include on-tablet {
   width: 324px;
 }
 
@@ -28,9 +27,7 @@ justify-self: center;
   font-weight: 700;
 
   @include hover(background-color, $button-hover-color);
-
   @include pressed(background-color, $button-pressed-color);
-
   }
 }
 
@@ -41,12 +38,11 @@ justify-self: center;
 
   @include hover(transform, scale(1.2));
 
-
-  @include onTablet {
+  @include on-tablet {
     width: 392px;
   }
 
-  @include onTablet {
+  @include on-desktop {
     width: 324px;
   }
 
@@ -64,8 +60,6 @@ justify-self: center;
     font-weight: 700;
 
     @include hover(background-color, $button-hover-color);
-
     @include pressed(background-color, $button-pressed-color);
-
     }
   }

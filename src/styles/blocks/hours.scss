@@ -1,22 +1,21 @@
 .hours {
-  @include pageGrid;
+  @include page-grid;
 
   &__title {
     grid-column: 1 / -1;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: 1 / 3;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 1 / 5;
     }
   }
 
   &__content {
     display: grid;
-    row-gap: 16px;
-    column-gap: 24px;
+    gap: 16px 24px;
     grid-template-areas:
     "hours__content--title hours__content--title"
     "hours__content--time hours__content--days"
@@ -74,11 +73,11 @@
   gap: 24px;
   grid-column: 1 / -1;
 
-  @include onTablet {
+  @include on-tablet {
     grid-column: 4 / 6;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     grid-column: 6 / 12;
   }
 }

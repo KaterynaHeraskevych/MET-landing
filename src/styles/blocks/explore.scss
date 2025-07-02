@@ -3,12 +3,13 @@
     color: $additional-color;
     text-align: center;
   }
+  
   &__photo {
     width: 100%;
   }
 
   &__content {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -16,7 +17,7 @@
   align-content: center;
   line-height: 27px;
   font-size: 16px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: center;
   }
 }
